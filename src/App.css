@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+.FormImage {
+  width: 500px;
+  height: 500px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.f-img-bg-light {
+  background-color: #f1f1f1;
+  transition-duration: 1s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.f-img-bg-dark {
+  background-color: #181818;
+  transition-duration: 2s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.m-5 {
+  margin: auto !important;
 }
 
-.App-link {
-  color: #61dafb;
+.contain {
+  margin-top: 70px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.span {
+  padding-top: 18px;
+  border-radius: 0;
+}
+
+.input-group-text {
+  border: 0.9px solid #000000;
+  border-right: 0 solid #000000;
+  background-color: #ffffff;
+}
+
+.form-control {
+  border-radius: 0 !important;
+  border: 0.9px solid #000000;
+}
+
+
+.btn {
+  border-radius: 0 !important;
+}
+
+.form-width {
+  width: 80%;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.btn-outline-dark {
+  background-color: #ffffff;
+}
+
+.text {
+  font-size: 14px;
+  color: #616060;
+}
+
+.text :hover {
+  color: #000000;
+  cursor: pointer;
+}
+
+.position-absolute {
+  z-index: 1;
+  top: 80px;
+  left: 100px;
+}
+
+.btn-dark {
+  background-color: #000000 !important;
+}
+
+.btn-dark:hover {
+  background-color: #f1f1f1 !important;
+  color: #000000 !important;
+  transition-duration: 0.5s;
+}
+
+.btn-outline-dark:hover {
+  background-color: #000000 !important;
+  transition-duration: 0.5s;
+}
+
+.fas {
+  padding-bottom: 8px !important;
+  color: #000000;
+}
+
+.custom-control-label::before {
+  background-color: #181818;
+  border: #181818;
+  cursor: pointer;
+}
+
+.custom-switch .custom-control-label::after {
+  background-color: #f1f1f1;
+}
+
+.custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+  background-color: #000000;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #f1f1f1;
+  border-color: #f1f1f1;
 }
